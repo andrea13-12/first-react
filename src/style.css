@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #4C956C;
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  font-family: 'Shadows Into Light', cursive;
+  color: #FEFEE3;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.an {
+  font-family: 'Shadows Into Light', cursive;
+  color: #FEFEE3;
+}
+
+.title {
+  font-family: 'Shadows Into Light', cursive;
+  align-items: center;
+}
