@@ -1,8 +1,8 @@
 .nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  justify-content: space-between;
+  padding: 0px 25px;
   background-color: #4C956C;
 }
 
@@ -15,10 +15,13 @@
   display: flex;
   font-family: 'Shadows Into Light', cursive;
   color: #FEFEE3;
+  padding-right: 10px;
 }
 
 .nav-items > li {
   padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+
 }
 
 .an {
@@ -27,6 +30,38 @@
 }
 
 .title {
+  margin-left: 20px;
+  letter-spacing: 0.1em;
   font-family: 'Shadows Into Light', cursive;
-  align-items: center;
+  color: #D68C45;
+
+}
+.iconumbrella {
+ color: #FEFEE3;
+ padding-left: 10px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+
+}
+
+.women {
+  display: grid;
+  grid-column-start: 2;
+}
+
+.text {
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+.text  >li::marker {
+  font-size: 1.4rem;
+    color: #2C6E49;
+
 }
