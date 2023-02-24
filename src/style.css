@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 25px;
-  background-color: #4C956C;
+  background-color: #1A759F;
 }
 
 .nav-logo {
@@ -14,7 +14,7 @@
   list-style: none;
   display: flex;
   font-family: 'Shadows Into Light', cursive;
-  color: #FEFEE3;
+  color: whitesmoke;
   padding-right: 10px;
 }
 
@@ -26,18 +26,20 @@
 
 .an {
   font-family: 'Shadows Into Light', cursive;
-  color: #FEFEE3;
+  color: whitesmoke;
 }
 
 .title {
   margin-left: 20px;
+  padding-top: 30px;
+  font-size: 40px;
   letter-spacing: 0.1em;
   font-family: 'Shadows Into Light', cursive;
-  color: #D68C45;
+  color: whitesmoke;
 
 }
 .iconumbrella {
- color: #FEFEE3;
+ color: whitesmoke;
  padding-left: 10px;
 }
 
@@ -57,11 +59,30 @@
 
 .text {
   font-family: 'Shadows Into Light', cursive;
-
+  line-height: 3;
+  color: white;
 }
 
 .text  >li::marker {
   font-size: 1.4rem;
-    color: #2C6E49;
+    color: #34A0A4;
 
+}
+
+body {
+ background-color: #116389;
+ margin: 0;
+ background-image: url(http://www.w3.org/2000/svg);
+
+}
+
+.bi {
+  color: #1A759F;
+  position: absolute;
+  right: 0;
+  top: 190;
+}
+
+footer {
+  color: whitesmoke;
 }

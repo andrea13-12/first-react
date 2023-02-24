@@ -9,8 +9,7 @@ export default function Headers() {
         <FontAwesomeIcon icon={faUmbrellaBeach} size="2x" transform={{rotate: 350}} className="iconumbrella"/>
         <h4 className="an">A&N</h4>
       <ol className="nav-items">
-        <li>About</li>
-        <li>Contact</li>
+        <li>React Course - Project 1</li>
       </ol>
       </nav>
     </header>
